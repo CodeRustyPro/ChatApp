@@ -1,0 +1,21 @@
+{
+  "name": "mychat",
+  "version": "1.0.1",
+  "description": "This is your onestop chat app for simple and quick messages for communication purposes.",
+  "main": "index.js",
+  "scripts": {
+   "devStart":"nodemon server.js"
+  },
+  "keywords": [
+    "Chat",
+    "App"
+  ],
+  "author": "Dev Shah",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

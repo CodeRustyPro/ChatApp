@@ -1,0 +1,46 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-image: radial-gradient(circle at center center, rgb(71, 71, 71),rgb(8, 8, 8));
+}
+
+#message-container {
+  width: 100%;
+  max-width: 5000rem;
+
+  }
+
+#message-container div {
+padding: 6px;
+color: white;
+}
+
+
+
+#send-container {
+  bottom: 0;
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+}
+
+#message-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    
+}
+#message-input:focus{
+    outline: 0;
+}
+#send-button{
+    bottom: 100px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 20px;
+}
